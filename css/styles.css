@@ -28,6 +28,7 @@ a:visited {
 
 ul {
 	list-style-type: none;
+	padding: 0;
 }
 
 img {
@@ -78,16 +79,29 @@ img {
 .container {
 	padding-left: 1em;
 	padding-right: 1em;
+	margin: 30px 0;
+}
+
+.contact-main {
+	margin-top: 150px;
 }
 
 .contact-info {
-	padding-top: 20px;
+	;
 }
 
-#main-footer {
+.main-footer {
 	text-align: center;
 	padding: 2em 0;
 	font-weight: 600;
+}
+
+.footer-name {
+	float: left;
+}
+
+.back-to-top {
+	float: right;
 }
 
 /*********
@@ -101,6 +115,7 @@ img {
 		max-width: 900px;
 		margin: 0 auto;
 		text-align: center;
+		clear: both;
 	}
 
 	.name,
@@ -211,6 +226,19 @@ img {
 		float: left;
 	}
 
-test text
+	/*.col-1, .col-4 {
+		float: left; 
+		width: 33%;
+	}
+
+	.col-3, .col-6 {
+		float: right;
+		width: 33%;
+	}
+
+	.col-2, .col-5 {
+		display: inline-block;
+		width: 33%;
+	}*/
 
 }
