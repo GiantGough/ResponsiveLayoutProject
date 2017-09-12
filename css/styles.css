@@ -113,7 +113,7 @@ img {
  MEDIA QUERIES
 *********/
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
 
 	.container {
 		width: 80%;
@@ -147,7 +147,7 @@ img {
 	}
 
 	#portfolio {
-		margin: 50px; auto;
+		margin: 50px auto;
 	}
 
 	.footer-nav {
