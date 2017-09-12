@@ -20,10 +20,15 @@ p {
 
 a {
 	text-decoration: none;
+	color: black;
 }
 
 a:visited {
 	color: black;
+}
+
+a:hover {
+	font-size: 130%;
 }
 
 ul {
@@ -138,13 +143,11 @@ img {
 	.tag {
 		padding: 1em;
 		font-size: 20px;
-		margin-bottom: 200px;
+		margin-bottom: 150px;
 	}
 
 	#portfolio {
 		margin: 0 auto;
-		display: block;
-		text-align: center;
 	}
 
 	.footer-nav {
@@ -160,6 +163,7 @@ img {
 		width: 50%;
 		height: 450px;
 		float: left;
+		vertical-align: top;
 	}
 
 	.col-1, .col-3, .col-5 {
