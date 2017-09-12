@@ -147,7 +147,7 @@ img {
 	}
 
 	#portfolio {
-		margin: 0 auto;
+		margin: 50px; auto;
 	}
 
 	.footer-nav {
@@ -181,11 +181,20 @@ img {
 		display: none;
 	}
 
+	.footer-name,
+	.footer-nav li {
+		display: inline-block;
+	}
+
+	.footer-nav a {
+		padding: 0 15px;
+		display: block;
+	}
 
 }
 
 
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
 
 	.container {
 		max-width: 1200px;
